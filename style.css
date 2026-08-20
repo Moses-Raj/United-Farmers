@@ -527,26 +527,26 @@ nav {
 
     /* Navigation */
 
-    nav {
-        padding: 18px 5%;
-        flex-wrap: wrap;
-        gap: 12px;
-    }
+   nav {
+    padding: 20px 5%;
+}
 
-    .logo {
-        font-size: 20px;
-    }
+.nav-links {
+    display: flex;
+    gap: 15px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
 
-    .nav-links {
-        display: flex;
-        gap: 15px;
-        flex-wrap: wrap;
-        justify-content: flex-end;
-    }
+.nav-links::-webkit-scrollbar {
+    display: none;
+}
 
-    .nav-links a {
-        font-size: 13px;
-    }
+.nav-links a {
+    font-size: 13px;
+    white-space: nowrap;
+}
 
 
     /* Hero */
